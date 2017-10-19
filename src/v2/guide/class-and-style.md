@@ -107,7 +107,7 @@ Se você preferir também alternar entre uma classe na lista condicionalmente, u
 <div v-bind:class="[isActive ? activeClass : '', errorClass]"></div>
 ```
 
-Isso semple aplicará `errorClass`, mas somente aplicará `activeClass` quando `isActive` for `true`.
+Isso sempre aplicará `errorClass`, mas somente aplicará `activeClass` quando `isActive` for `true`.
 
 No entanto, isso pode ser um tanto prolixo se você tiver várias classes condicionais. Por isso também é possível usar a sintaxe de objeto dentro da sintaxe de Array:
 
